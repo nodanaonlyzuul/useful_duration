@@ -18,9 +18,26 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  require 'useful_duration'
+
+  > require 'useful_duration'
+   => true
+  > 10.in_a_gadda_da_vida.ago
+   => 2013-04-18 11:25:52 -0400
+  > 10.in_a_gadda_da_vidas.ago
+   => 2013-04-18 11:25:56 -0400
+  > 2.bravehearts.from_now
+   => 2013-04-18 20:10:45 -0400
+
+
+## Dependencies
+
+This requires ActiveSupport To play nicely with ActiveSupport duration.
+It was written against 3.2.13 and hasn't been regression tested against other versions.
 
 ## Contributing
+
+Is there a unit of time you'd like to see?
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
