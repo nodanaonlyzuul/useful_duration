@@ -20,12 +20,14 @@ Or install it yourself as:
 
   require 'useful_duration'
 
-  > require 'useful_duration'
-   => true
+  > require 'useful_duration' => true
+
   > 10.in_a_gadda_da_vida.ago
-   => 2013-04-18 11:25:52 -0400
+  => 2013-04-18 11:25:52 -0400
+
   > 10.in_a_gadda_da_vidas.ago
-   => 2013-04-18 11:25:56 -0400
+  => 2013-04-18 11:25:56 -0400
+
   > 2.bravehearts.from_now
    => 2013-04-18 20:10:45 -0400
 
