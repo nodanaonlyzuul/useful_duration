@@ -22,9 +22,6 @@ Or install it yourself as:
 
   > require 'useful_duration'
 
-  > 10.in_a_gadda_da_vida.ago
-  => 2013-04-18 11:25:52 -0400
-
   > 10.in_a_gadda_da_vidas.ago
   => 2013-04-18 11:25:56 -0400
 
