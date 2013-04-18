@@ -29,7 +29,6 @@ Or install it yourself as:
   > 2.bravehearts.from_now
    => 2013-04-18 20:10:45 -0400
 
-
 ## Dependencies
 
 This requires ActiveSupport To play nicely with ActiveSupport duration.
