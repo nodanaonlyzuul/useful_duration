@@ -33,7 +33,7 @@ Or install it yourself as:
 
 ## Dependencies
 
-This requires ActiveSupport To play nicely with ActiveSupport duration.
+This requires ActiveSupport to play nicely with ActiveSupport duration.
 It was written against 3.2.13 and hasn't been regression tested against other versions.
 
 ## Contributing
