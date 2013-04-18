@@ -1,6 +1,6 @@
 # UsefulDuration
 
-TODO: Write a gem description
+Finally - a useful way of measuring time in your applications.
 
 ## Installation
 
