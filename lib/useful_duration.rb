@@ -15,4 +15,9 @@ class Numeric
   end
   alias :in_a_gadda_da_vida :in_a_gadda_da_vidas
 
+  def doctor_zhivagos
+    ActiveSupport::Duration.new(self * 11820, [[:seconds, self * 11820]])
+  end
+  alias :doctor_zhivago :doctor_zhivagos
+
 end
