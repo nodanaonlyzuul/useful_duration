@@ -6,11 +6,11 @@ require 'useful_duration/version'
 Gem::Specification.new do |spec|
   spec.name          = "useful_duration"
   spec.version       = UsefulDuration::VERSION
-  spec.authors       = ["Stephen Schor"]
-  spec.email         = ["stephen@eastmedia.com"]
+  spec.authors       = ["Stephen Schor", "Ross Cooperman", "Clint Bishop"]
+  spec.email         = ["beholdthepanda@gmail.com"]
   spec.description   = %q{Useful measurements of time}
   spec.summary       = %q{Useful measurements of time}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nodanaonlyzuul/useful_duration"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
