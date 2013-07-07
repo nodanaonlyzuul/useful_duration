@@ -20,6 +20,8 @@ Or install it yourself as:
 
   > require 'useful_duration'
 
+  > include UsefulDuration
+
   > 10.in_a_gadda_da_vidas.ago
   => 2013-04-18 11:25:56 -0400
 

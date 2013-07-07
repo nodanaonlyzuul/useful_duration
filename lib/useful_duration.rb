@@ -4,26 +4,14 @@ require 'active_support/core_ext/time/calculations'
 require 'active_support/core_ext/time/acts_like'
 require 'active_support/core_ext/string/inflections.rb'
 
-class Numeric
-
-  def bravehearts
-     ActiveSupport::Duration.new(self * 10620, [[:seconds, self * 10620]])
-  end
-  alias :braveheart :bravehearts
-
-  def in_a_gadda_da_vidas
-    ActiveSupport::Duration.new(self * 1023, [[:seconds, self * 1023]])
-  end
-  alias :in_a_gadda_da_vida :in_a_gadda_da_vidas
-
-  def doctor_zhivagos
-    ActiveSupport::Duration.new(self * 11820, [[:seconds, self * 11820]])
-  end
-  alias :doctor_zhivago :doctor_zhivagos
-
-end
-
 module UsefulDuration
+
+  def self.included(base)
+    # Some nice - built in durations
+    useful_duration :bravehearts,         10620
+    useful_duration :in_a_gadda_da_vidas,  1023
+    useful_duration :doctor_zhivagos,     11820
+  end
 
   def useful_duration name, value
     # Send a `define_method` to Numeric class
