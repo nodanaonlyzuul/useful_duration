@@ -18,8 +18,6 @@ Or install it yourself as:
 
 ## Usage
 
-  require 'useful_duration'
-
   > require 'useful_duration'
 
   > 10.in_a_gadda_da_vidas.ago
@@ -27,6 +25,17 @@ Or install it yourself as:
 
   > 2.bravehearts.from_now
    => 2013-04-18 20:10:45 -0400
+
+## Defining Your Own Duration
+
+  > require 'useful_duration'
+
+  > include UsefulDuration
+
+  > useful_duration :fortnights, 1209600
+
+  > 1.fortnight.from_now
+  => 2013-07-21 08:47:37 -0400
 
 ## Dependencies
 
