@@ -30,6 +30,12 @@ Or install it yourself as:
 => 2013-04-18 20:10:45 -0400
 ```
 
+## Built in Durations
+
+* bravehearts
+* in_a_gadda_da_vidas
+* doctor_zhivagos
+
 ## Defining Your Own Duration
 
 ```ruby
