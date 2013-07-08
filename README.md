@@ -18,26 +18,30 @@ Or install it yourself as:
 
 ## Usage
 
-  > require 'useful_duration'
+```ruby
+> require 'useful_duration'
 
-  > include UsefulDuration
+> include UsefulDuration
 
-  > 10.in_a_gadda_da_vidas.ago
-  => 2013-04-18 11:25:56 -0400
+> 10.in_a_gadda_da_vidas.ago
+=> 2013-04-18 11:25:56 -0400
 
-  > 2.bravehearts.from_now
-   => 2013-04-18 20:10:45 -0400
+> 2.bravehearts.from_now
+=> 2013-04-18 20:10:45 -0400
+```
 
 ## Defining Your Own Duration
 
-  > require 'useful_duration'
+```ruby
+> require 'useful_duration'
 
-  > include UsefulDuration
+> include UsefulDuration
 
-  > useful_duration :fortnights, 1209600
+> useful_duration :fortnights, 1209600
 
-  > 1.fortnight.from_now
-  => 2013-07-21 08:47:37 -0400
+> 1.fortnight.from_now
+=> 2013-07-21 08:47:37 -0400
+```
 
 ## Dependencies
 
